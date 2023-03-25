@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>F1_Contest-3</title>
+</head>
+
+<body>
+
+    <!-- Absulate header part of my Page -->
+    <header class="nav-bar">
+        <div class="left-header">
+            <ul class="Listed">
+                <a href="#" class="underline">
+                    <li class="item-list" id="home">Home</li>
+                </a>
+                <a href="#" class="underline">
+                    <li class="item-list">Features</li>
+                </a>
+                <a href="#" class="underline">
+                    <li class="item-list">Pricing</li>
+                </a>
+                <a href="#" class="underline">
+                    <li class="item-list">About</li>
+                </a>
+                <a href="#" class="underline">
+                    <li class="item-list">Contact Us</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="right-header" id="t-bar">
+            <input type="text" class="place" placeholder="Search">
+            <button class="search">Search</button>
+        </div>
+    </header>
+
+
+    <!-- Image Slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="p4.jpg" height="530px" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="p1.jpg" height="530px" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="p3.jpg" height="530px" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="p2.jpg" height="530px" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Fourth slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Text Title -->
+    <div class="content">
+
+
+        <h5 class="title">
+            About Scenery
+        </h5>
+
+        <p class="para">
+            Lorem ipsum dolor sit amet, vince adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            conser. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.Lorem ipstum dolor sit amet, vince adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.Lorem ipsum dolor sit amet, vince adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.Lorem ipsum dolor sit amet, vince adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+        </p>
+    </div>
+
+
+    <!-- Collapse  -->
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        Collapsible Group Item #1
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Collapsible Group Item #2
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Collapsible Group Item #3
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Card  -->
+
+    <div class="row" id="special-card">
+        <div class="col" id="card4">
+            <h5 class="C-header">Card Header</h5>
+            <img class="image3-2" src="c1.jpg" alt="card">
+            <div class="spce">
+                <h4 class="ct">Card Title</h4>
+                <h5 class="small">Sub Title</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, in fugit! Error sequi reprehenderit et.
+                </p>
+                <button class="butn">Go somewhere</button>
+                <hr>
+                <p>1st list item</p>
+                <hr>
+                <p>12nd list item</p>
+                <hr>
+                <a href="#" class="link">Card link</a>
+                <a href="#" class="link">Another link</a>
+                <hr>
+                <footer class="fotfot">Card Footer</footer>
+            </div>
+        </div>
+
+        <div class="col" id="card4">
+            <h5 class="C-header">Card Header</h5>
+            <img class="image3-2" src="c4.jpg" alt="card">
+            <div class="spce">
+                <h4 class="ct">Card Title</h4>
+                <h5 class="small">Sub Title</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, in fugit! Error sequi reprehenderit et.
+                </p>
+                <button class="butn">Go somewhere</button>
+                <hr>
+                <p>1st list item</p>
+                <hr>
+                <p>12nd list item</p>
+                <hr>
+                <a href="#" class="link">Card link</a>
+                <a href="#" class="link">Another link</a>
+                <hr>
+                <footer class="fotfot">Card Footer</footer>
+            </div>
+        </div>
+
+        <div class="col" id="card4">
+            <h5 class="C-header">Card Header</h5>
+            <img class="image3-2" src="c3.jpg" alt="card">
+            <div class="spce">
+                <h4 class="ct">Card Title</h4>
+                <h5 class="small">Sub Title</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, in fugit! Error sequi reprehenderit et.
+                </p>
+                <button class="butn">Go somewhere</button>
+                <hr>
+                <p>1st list item</p>
+                <hr>
+                <p>12nd list item</p>
+                <hr>
+                <a href="#" class="link">Card link</a>
+                <a href="#" class="link">Another link</a>
+                <hr>
+                <footer class="fotfot">Card Footer</footer>
+            </div>
+        </div>
+
+        <div class="col" id="card4">
+            <h5 class="C-header">Card Header</h5>
+            <img class="image3-2" src="c2.jpg" alt="card">
+            <div class="spce">
+                <h4 class="ct">Card Title</h4>
+                <h5 class="small">Sub Title</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, in fugit! Error sequi reprehenderit et.
+                </p>
+                <button class="butn">Go somewhere</button>
+                <hr>
+                <p>1st list item</p>
+                <hr>
+                <p>12nd list item</p>
+                <hr>
+                <a href="#" class="link">Card link</a>
+                <a href="#" class="link">Another link</a>
+                <hr>
+                <footer class="fotfot">Card Footer</footer>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Table form  -->
+
+    <table class="tb-1">
+        <div class="tb-head">
+            <div class="part-1">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                        &nbsp<b>Title</b> &nbsp <b>Title</b>
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <b>Title</b>
+            </div>
+            <div>
+                <b>Title</b>
+            </div>
+            <div class="form-check-1">
+                <b>Title</b>
+            </div>
+        </div>
+
+        <hr class="frm" style="border-top: 3px solid black;">
+
+        <!-- body -->
+        <div class="tb-body">
+            <div class="part-2">
+                <div class="fm-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="leftleft" for="flexCheckIndeterminate">
+                        &nbsp || &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Text line
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                Text line
+            </div>
+            <div>
+                Text line
+            </div>
+            <div class="form-check-2">
+                <a href="" class="edit">Publish</a>
+                <a href="" class="edit">Edit</a>
+                <a href="" class="edit">Delete</a>
+            </div>
+        </div>
+        <hr>
+
+        <!-- body -->
+        <div class="tb-body">
+            <div class="part-2">
+                <div class="fm-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="leftleft" for="flexCheckIndeterminate">
+                        &nbsp || &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Text line
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                Text line
+            </div>
+            <div>
+                Text line
+            </div>
+            <div class="form-check-2">
+                <a href="" class="edit">Publish</a>
+                <a href="" class="edit">Edit</a>
+                <a href="" class="edit">Delete</a>
+            </div>
+        </div>
+        <hr>
+
+        <!-- body -->
+        <div class="tb-body">
+            <div class="part-2">
+                <div class="fm-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="leftleft" for="flexCheckIndeterminate">
+                        &nbsp || &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Text line
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                Text line
+            </div>
+            <div>
+                Text line
+            </div>
+            <div class="form-check-2">
+                <a href="" class="edit">Publish</a>
+                <a href="" class="edit">Edit</a>
+                <a href="" class="edit">Delete</a>
+            </div>
+        </div>
+        <hr>
+
+        <!-- body -->
+        <div class="tb-body">
+            <div class="part-2">
+                <div class="fm-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="leftleft" for="flexCheckIndeterminate">
+                        &nbsp || &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Text line
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                Text line
+            </div>
+            <div>
+                Text line
+            </div>
+            <div class="form-check-2">
+                <a href="" class="edit">Publish</a>
+                <a href="" class="edit">Edit</a>
+                <a href="" class="edit">Delete</a>
+            </div>
+        </div>
+        <hr>
+
+        <!-- body -->
+        <div class="tb-body">
+            <div class="part-2">
+                <div class="fm-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="leftleft" for="flexCheckIndeterminate">
+                        &nbsp || &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Text line
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                Text line
+            </div>
+            <div>
+                Text line
+            </div>
+            <div class="form-check-2">
+                <a href="" class="edit">Publish</a>
+                <a href="" class="edit">Edit</a>
+                <a href="" class="edit">Delete</a>
+            </div>
+        </div>
+        <hr>
+
+        <!-- body -->
+        <div class="tb-body">
+            <div class="part-2">
+                <div class="fm-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="leftleft" for="flexCheckIndeterminate">
+                        &nbsp || &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Text line
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                Text line
+            </div>
+            <div>
+                Text line
+            </div>
+            <div class="form-check-2">
+                <a href="" class="edit">Publish</a>
+                <a href="" class="edit">Edit</a>
+                <a href="" class="edit">Delete</a>
+            </div>
+        </div>
+        <hr>
+
+        <!-- body -->
+        <div class="tb-body">
+            <div class="part-2">
+                <div class="fm-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="leftleft" for="flexCheckIndeterminate">
+                        &nbsp || &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Text line
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                Text line
+            </div>
+            <div>
+                Text line
+            </div>
+            <div class="form-check-2">
+                <a href="" class="edit">Publish</a>
+                <a href="" class="edit">Edit</a>
+                <a href="" class="edit">Delete</a>
+            </div>
+        </div>
+        <hr>
+
+        <!-- body -->
+        <div class="tb-body">
+            <div class="part-2">
+                <div class="fm-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="leftleft" for="flexCheckIndeterminate">
+                        &nbsp || &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Text line
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                Text line
+            </div>
+            <div>
+                Text line
+            </div>
+            <div class="form-check-2">
+                <a href="" class="edit">Publish</a>
+                <a href="" class="edit">Edit</a>
+                <a href="" class="edit">Delete</a>
+            </div>
+        </div>
+        <hr>
+
+        <!-- body -->
+        <div class="tb-body">
+            <div class="part-2">
+                <div class="fm-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="leftleft" for="flexCheckIndeterminate">
+                        &nbsp || &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Text line
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                Text line
+            </div>
+            <div>
+                Text line
+            </div>
+            <div class="form-check-2">
+                <a href="" class="edit">Publish</a>
+                <a href="" class="edit">Edit</a>
+                <a href="" class="edit">Delete</a>
+            </div>
+        </div>
+        <hr>
+
+        <!-- body -->
+        <div class="tb-body">
+            <div class="part-2">
+                <div class="fm-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="leftleft" for="flexCheckIndeterminate">
+                        &nbsp || &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Text line
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                Text line
+            </div>
+            <div>
+                Text line
+            </div>
+            <div class="form-check-2">
+                <a href="" class="edit">Publish</a>
+                <a href="" class="edit">Edit</a>
+                <a href="" class="edit">Delete</a>
+            </div>
+        </div>
+        <hr>
+
+    </table>
+
+
+    <!-- Bootstrap form  -->
+    <h4 class="hh4">Bootstrap Form</h4>
+    <form>
+        <div class="form-row" id="first-last">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4"></label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="First Name">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4"></label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Last Name">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputAddress"></label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress"></label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress2"></label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Confirm Password">
+        </div>
+
+
+        <button type="submit" class="btn btn-primary" id="primary">Submit Form</button>
+    </form>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
